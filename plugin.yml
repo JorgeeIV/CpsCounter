@@ -1,0 +1,5 @@
+name: CpsCounte
+main: jorgeeqt\CpsCounter
+version: 1.0.0
+api: 4.0.0
+author: Jorgeeqt

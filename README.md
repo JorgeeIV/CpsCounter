@@ -1,2 +1,2 @@
 # CpsCounter
-Avanced CpsXCounter
+Avanced CpsCounter

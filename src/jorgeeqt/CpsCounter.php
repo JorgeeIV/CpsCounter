@@ -1,6 +1,6 @@
 <?php
 
-namespace jorgeiv;
+namespace jorgeeqt;
 
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;

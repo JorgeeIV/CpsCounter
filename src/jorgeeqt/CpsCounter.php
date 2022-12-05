@@ -25,7 +25,7 @@ use function array_filter;
 
 class CpsCounter extends PluginBase implements Listener{
 	
-	/** Library from Luca28pet **/
+
 	
     private const ARRAY_MAX_SIZE = 100;
     
@@ -95,8 +95,8 @@ class CpsCounter extends PluginBase implements Listener{
     }
 
     public function sendTipCps(Player $player): void {
-    	// $session = SessionManager::getInstance;
-       // if($session->isCpsEnabled(){
+
+
         $cps = (int)$this->getCps($player);
         $player->sendTip(TextFormat::AQUA . "CPS: " . TextFormat::RESET . TextFormat::WHITE . $cps);
     }
